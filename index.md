@@ -1,22 +1,22 @@
-## Automotive AOSP Emulator
+# Automotive AOSP Emulator
 
 In this repo you can download binary files of avd for Android studio or standalone. I will describe hot to use it.
 
-### How to
+## How to
 
 Let's start to work. 
 
 Before the next step you should already have Android SDK and Android Studio.
 
-# Download zip archive
+##### Download zip archive
 Use this [link](https://github.com/vladislav-smirnov/automotive-emulator-aosp/raw/main/aosp_11.zip) to download
 
-# Unpack zip archive
+##### Unpack zip archive
 
 Unzip archive to <Android SDK path>/system-images/android-30. Result of that is aosp_11 folder into "android-30" folder.
 ![Image](website/static/images/jpg/2.png) 
   
-# Create avd
+##### Create avd
   I describe method for android studio. You can use different ways.
   
   1. Open Android Studio
@@ -39,7 +39,7 @@ Unzip archive to <Android SDK path>/system-images/android-30. Result of that is 
   - Select System image
   - Finish avd creation. Don't forget to change avd name.
   
-# Start AVD
+##### Start AVD
   To start AVD you can use Android studio or terminal(console).
   I use terminal. 
   - go to <Android SDK path>/emulator
@@ -49,14 +49,16 @@ Unzip archive to <Android SDK path>/system-images/android-30. Result of that is 
   -writable-system 
   -avd <device name>
 
-# Wait when emulator will be opened. 
-    ![Image](website/static/images/jpg/5.png) 
+##### Wait when emulator will be opened. 
+
+Result: 
+![Image](website/static/images/jpg/5.png) 
     
-    <img src="website/static/gif/website/static/images/jpg/5.png" width="256">
+<img src="website/static/gif/website/static/images/jpg/5.png" width="256">
 
 For more details see [developes android](https://developer.android.com/studio/run/managing-avds).
 
-### Root and remount
+## Root and remount
 
 If you want to change anything on system partition you need to remount it.
 
