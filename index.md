@@ -51,15 +51,16 @@ Unzip archive to <Android SDK path>/system-images/android-30. Result of that is 
   - start emulator by command ./emulator -avd <device name> -skin 1920x1080 -gpu on -verbose -debug-init -writable-system  -selinux permissive -no-snapshot
   ![Image](website/static/images/jpg/4.png) 
   
-  Only few parameters are important 
-  -writable-system 
-  -avd <device name>
+  Only few parameters are important:
+  
+  - -writable-system 
+  - -avd <device name>
 
 ##### Wait when emulator will be opened. 
 
 Result: 
 ![Image](website/static/images/jpg/5.png) 
-![Image](https://github.com/vladislav-smirnov/automotive-emulator-aosp/blob/gh-pages/website/static/images/jpg/5.png) 
+![Image](https://github.com/vladislav-smirnov/automotive-emulator-aosp/raw/gh-pages/website/static/images/jpg/5.png) 
    
 For more details see [developes android](https://developer.android.com/studio/run/managing-avds).
 
