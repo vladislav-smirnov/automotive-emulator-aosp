@@ -13,7 +13,7 @@ Use this [link](https://github.com/vladislav-smirnov/automotive-emulator-aosp/ra
 
 ##### Unpack zip archive
 
-Unzip archive to <Android SDK path>/system-images/android-30. Result of that is aosp_11 folder into "android-30" folder.
+Unzip archive to "Android SDK path"/system-images/android-30. Result of that is aosp_11 folder into "android-30" folder.
 ![Image](website/static/images/jpg/2.png) 
   
 ##### Create avd
@@ -46,7 +46,7 @@ Unzip archive to <Android SDK path>/system-images/android-30. Result of that is 
 ##### Start AVD
   To start AVD you can use Android studio or terminal(console).
   I use terminal. 
-  - go to <Android SDK path>/emulator
+  - go to "Android SDK path"/emulator
   ![Image](website/static/images/jpg/3.png) 
   - start emulator by command ./emulator -avd <device name> -skin 1920x1080 -gpu on -verbose -debug-init -writable-system  -selinux permissive -no-snapshot
   ![Image](website/static/images/jpg/4.png) 
