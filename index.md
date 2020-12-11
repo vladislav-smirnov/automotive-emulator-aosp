@@ -6,7 +6,6 @@ In this repo you can download binary files of avd for Android studio or standalo
 
 Let's start to work. 
 
-```markdown
 Before the next step you should already have Android SDK and Android Studio.
 
 # Download zip archive
@@ -52,8 +51,8 @@ Unzip archive to <Android SDK path>/system-images/android-30. Result of that is 
 
 # Wait when emulator will be opened. 
     ![Image](website/static/images/jpg/5.png) 
-
-```
+    
+    <img src="website/static/gif/website/static/images/jpg/5.png" width="256">
 
 For more details see [developes android](https://developer.android.com/studio/run/managing-avds).
 
