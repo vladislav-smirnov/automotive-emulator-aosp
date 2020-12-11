@@ -52,9 +52,9 @@ Unzip archive to <Android SDK path>/system-images/android-30. Result of that is 
 ##### Wait when emulator will be opened. 
 
 Result: 
-![Image](website/static/images/jpg/5.png) 
+![Image](https://github.com/vladislav-smirnov/automotive-emulator-aosp/blob/gh-pages/website/static/images/jpg/5.png) 
     
-<img src="website/static/gif/website/static/images/jpg/5.png" width="256">
+<img src="https://github.com/vladislav-smirnov/automotive-emulator-aosp/blob/gh-pages/website/static/images/jpg/5.png" width="256">
 
 For more details see [developes android](https://developer.android.com/studio/run/managing-avds).
 
