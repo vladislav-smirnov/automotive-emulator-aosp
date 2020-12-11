@@ -60,7 +60,6 @@ Unzip archive to <Android SDK path>/system-images/android-30. Result of that is 
 
 Result: 
 ![Image](website/static/images/jpg/5.png) 
-![Image](https://github.com/vladislav-smirnov/automotive-emulator-aosp/raw/gh-pages/website/static/images/jpg/5.png) 
    
 For more details see [developes android](https://developer.android.com/studio/run/managing-avds).
 
